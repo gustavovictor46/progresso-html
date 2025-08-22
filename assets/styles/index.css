@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(84, 156, 219);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(219, 23, 23);
+    border: 2 px solid rgb(29, 112, 190);
+    color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
