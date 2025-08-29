@@ -1,0 +1,16 @@
+
+* {
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.retângulo {
+    width: 30%;
+    height: 200px;
+    background-color: rgb(57, 142, 216);
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
