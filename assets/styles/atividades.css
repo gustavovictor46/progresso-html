@@ -1,16 +1,42 @@
 
 * {
-    padding: 50px;
+    padding: 40px;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    padding: 30px;
+}
+
 .retângulo {
-    width: 30%;
+    width: 400px;
     height: 200px;
     background-color: rgb(57, 142, 216);
     margin: 0 auto 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+}
+
+.quadrado {
+        width: 100px;
+        height: 100px;
+}
+
+.verde {
+    background-color: chartreuse;
+}
+
+.roxo {
+    background-color: blueviolet;
 }
