@@ -2,29 +2,30 @@
   padding: 40px;
   margin: 0;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
 }
 
 body {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-.retângulo {
-  width: 400px;
-  height: 200px;
-  background-color: rgb(57, 142, 216);
-  margin: 0 auto 50px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
 
 .container {
   display: flex;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 25px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 500px;
   gap: 20px;
+  background-color: black;
 }
 
 .bola {
@@ -35,12 +36,19 @@ body {
 
 .vermelha {
   background-color: red;
+  box-shadow: 0 0 20px #ff0000;
 }
 
 .amarela {
   background-color: yellow;
+  box-shadow: 0 0 20px yellow
 }
 
 .verde {
   background-color: green;
+  box-shadow: 0 0 20px green;
+}
+
+.titulo {
+  background-color: aqua;
 }
